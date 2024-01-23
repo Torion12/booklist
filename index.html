@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/92152a4d51.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+            <i class="fa-solid fa-book text-primary"></i>My<span class="text-primary">Book</span>List
+        </h1>
+            <form action="" id="book-form">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" name="id" id="title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="author">author</label>
+                    <input type="text" name="author" id="author" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="ISBN">ISBN</label>
+                    <input type="text" name="id" id="isbn" class="form-control">
+                </div>
+                <input type="submit" value="add book" class="btn btn-primary btn-block"> 
+            </form>
+            <table class="table table-tripe mt-5">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN#</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="" id="book-list"></tbody>
+            </table>
+    </div>
+    
+</body>
+<script src="practice.js"></script>
+</html>
